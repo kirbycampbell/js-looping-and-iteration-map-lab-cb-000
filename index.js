@@ -18,3 +18,9 @@ function nameToAttributes(collection){
     return Object.assign({}, { firstName: itemFirst}, { lastName: itemLast });
   });
 }
+
+function attributesToPhrase(collection){
+  return collection.map(function (item) {
+
+  });
+}
