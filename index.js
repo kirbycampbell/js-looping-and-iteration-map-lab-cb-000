@@ -11,6 +11,6 @@ function splitName(fullname){
 
 function nameToAttributes(collection){
   return collection.map(function (item) {
-    return Object.assign({}, {firstName: item.split(" ")}, )
+    return Object.assign({}, {firstName: splitName(item)[0])}, {lastName: splitName(item)[1])});
   });
 }
