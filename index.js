@@ -4,3 +4,9 @@ function lowerCaseDrivers(collection){
     return item.toLowerCase();
   });
 }
+
+function nameToAttributes(collection){
+  return collection.map(function (item) {
+    return Object.assign({}, item.firstName, item.lastName);
+  });
+}
