@@ -14,6 +14,6 @@ function nameToAttributes(collection){
     //return Object.assign({}, {firstName: splitName(item)[0])}, {lastName: splitName(item)[1])});
     const itemFirst = item.split(' ')[0];
     const itemLast = item.split(' ')[1];
-    return { firstName: itemFirst, lastName: itemLast };
+    return Object.assign({}, { firstName: itemFirst}, { lastName: itemLast });
   });
 }
