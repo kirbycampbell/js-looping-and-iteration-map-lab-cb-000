@@ -5,8 +5,12 @@ function lowerCaseDrivers(collection){
   });
 }
 
+function splitName(fullname){
+  return fullname.split(" ")
+}
+
 function nameToAttributes(collection){
   return collection.map(function (item) {
-    return Object.assign({}, item.firstName, item.lastName);
+    return Object.assign({}, {firstName: item.split(" ")}, )
   });
 }
