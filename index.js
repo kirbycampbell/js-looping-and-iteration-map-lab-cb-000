@@ -21,6 +21,6 @@ function nameToAttributes(collection){
 
 function attributesToPhrase(collection){
   return collection.map(function (item) {
-    item[:name] + 'is from ' + item[:hometown];
+
   });
 }
