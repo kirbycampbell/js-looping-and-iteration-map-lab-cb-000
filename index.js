@@ -9,8 +9,8 @@ function lowerCaseDrivers(collection){
 //  return fullname.split(" ")
 //}
 
-function nameToAttributes(collection){
-  return collection.map(function (item) {
-    return Object.assign({}, {firstName: splitName(item)[0])}, {lastName: splitName(item)[1])});
-  });
-}
+//function nameToAttributes(collection){
+//  return collection.map(function (item) {
+//    return Object.assign({}, {firstName: splitName(item)[0])}, {lastName: splitName(item)[1])});
+//  });
+//}
