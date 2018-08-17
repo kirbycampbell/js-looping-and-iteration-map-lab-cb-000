@@ -5,9 +5,9 @@ function lowerCaseDrivers(collection){
   });
 }
 
-function splitName(fullname){
-  return fullname.split(" ")
-}
+//function splitName(fullname){
+//  return fullname.split(" ")
+//}
 
 function nameToAttributes(collection){
   return collection.map(function (item) {
